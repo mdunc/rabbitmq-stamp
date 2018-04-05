@@ -13,7 +13,7 @@ current_rmq_ref = rabbitmq_v3_6_3
 
 DEPS = rabbit_common rabbit amqp_client
 
-TEST_DEPS = rabbitmq_ct_helpers rabbitmq_ct_client_helpers
+TEST_DEPS = rabbitmq_ct_helpers rabbitmq_ct_client_helpers ranch
 
 DEP_PLUGINS = rabbit_common/mk/rabbitmq-plugin.mk
 
